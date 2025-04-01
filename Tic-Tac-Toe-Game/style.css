@@ -1,0 +1,32 @@
+.game-heading {
+    text-align: center;
+    font-size: 45px;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 8px;
+}
+
+.box {
+    background-color: rgb(129, 112, 225);
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+
