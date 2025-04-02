@@ -1,3 +1,3 @@
-Different projects which is built solely using html,css, javascript
+Different projects to practise html,css, javascript and DOM
 
 
