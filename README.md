@@ -1,3 +1,3 @@
-Different projects which is built solely using java
+Different projects which is built solely using html,css, javascript
 
-To run this programs, simply copy the code and paste it on any java ide
+
