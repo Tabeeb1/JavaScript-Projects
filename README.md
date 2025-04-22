@@ -1,3 +1,3 @@
-Different projects to practise html,css, javascript and DOM
+Different projects to practise html,css, javascript and DOM [non responsive]
 
 
