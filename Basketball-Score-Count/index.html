@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <title>Basketball Scoreboard</title>
+        <link href="./index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <main id="main">
+            <div class="home-scorecard">
+                <h2 class="home-word">HOME</h2>
+                <div class="score-show-box">
+                    <p id="home-score-show">0</p>
+                </div>
+                <div class="score-increase">
+                    <button class="increase" onclick="oneIncrease()">+1</button>
+                    <button class="increase" onclick="twoIncrease()">+2</button>
+                    <button class="increase" onclick="threeIncrease()">+3</button>
+                </div>
+                <button id="home-reset" onclick="homeReset()">RESET</button>
+            </div>
+            <div class="home-scorecard">
+                <h2 class="home-word">AWAY</h2>
+                <div class="score-show-box">
+                    <p id="away-score-show">0</p>
+                </div>
+                <div class="score-increase">
+                    <button class="increase" onclick="awayOneIncrease()">+1</button>
+                    <button class="increase" onclick="awayTwoIncrease()">+2</button>
+                    <button class="increase" onclick="awayThreeIncrease()">+3</button>
+                </div>
+                <button id="away-reset" onclick="awayReset()">RESET</button>
+            </div>
+
+        </main>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
