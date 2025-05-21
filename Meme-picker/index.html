@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MemePicker</title>
+        <link href="./index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-items">
+                <img class="pumpkin-picture" src="./images/pumpkin.png" alt="a cat has a surprised face">
+                <div>
+                    <h2 class="pumpkin-class-h2">Pumpkin's Purrfect...</h2>
+                    <h1 class="pumpkin-class-h1">Meme Picker</h1>
+                </div>
+            </div>
+        </header>
+        <section>
+            <h2 class="current-emotion-heading">Select your current emotion</h2>
+            <div id="emotion-picker"></div>
+            <div class="gif-picker">
+                <div>
+                    <label for="gifPicker" >Animated GIFs only</label>
+                    <input type="checkbox" name="gifCheck" value="Animated Gif" id="gifPicker">
+                </div>
+            </div>
+            <div class="submit-btn">
+                <button id="get-image-btn">Get Image</button>
+            </div>
+            <div class="pic-show-container">
+                <button class="pic-close-btn">X</button>
+                <div id="final-image-container"></div>
+            </div>
+        </section>
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>

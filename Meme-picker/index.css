@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    font-family: 'Karla', sans-serif;
+}
+.header{
+    background-color: #67595E;
+    padding: 10px 0 0 0;
+}
+
+.header-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pumpkin-picture{
+    width: 90px;
+}
+
+.pumpkin-class-h2, .pumpkin-class-h1{
+    margin: 0;
+    color: #EED6D3;
+    text-align: center;
+}
+
+.pumpkin-class-h2{
+    font-size: 17px;
+}
+
+.current-emotion-heading{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.radio{
+    padding: 10px;
+    border: 1px solid #EED6D3;
+    border-radius: 5px;
+    display: flex;
+}
+
+.highlight-radio{
+    background-color: #fff0ee;
+}
+
+#emotion-picker{
+    width: 200px;
+    margin: 50px auto 0 auto;
+}
+
+
+label{
+    width: 100%;
+    cursor: pointer;
+}
+
+.gif-picker{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#get-image-btn{
+    background-color: #67595e;
+    color: #eed6d3;
+    padding: 10px 15px;
+    font-size: 24px;
+    border: none;
+    border-radius: 2px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic-show-container{
+    display: none;
+    position: fixed;
+    background-color: burlywood;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Shift it back by half its size */
+    padding: 220px;
+    border-radius: 10px;
+}
+
+.pic-close-btn{
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.final-image{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
