@@ -1,0 +1,1 @@
+this was my first project which was quite a challenge to do, Here, the site allows user to choose a mood and then it will show the user a variety of "cat" images of gifs of that mood. User can also choose whether they want to see only gifs or gifs and photos both
