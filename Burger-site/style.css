@@ -1,0 +1,194 @@
+body, p{
+    margin: 0;
+    padding: 0;
+    font-family: "Smythe", system-ui;
+}
+
+.intro-pic{
+    width: 100%;
+    height: 150px;
+    
+}
+
+#food-section{
+    margin-left: 450px;
+    width: 40%;
+}
+
+.food-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top:25px;
+    margin-bottom:25px;
+    justify-content: space-between;
+}
+
+.food-details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.food-emoji{
+    font-size: 50px;
+    
+}
+
+.food-name{
+    font-size: 20px;
+}
+
+.food-ingredients{
+    font-size: 13px;
+    color: gray;
+}
+
+.food-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.add-button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.add-button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    transition: all 0.2s ease-in-out;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.order{
+    font-size: 20px;
+}
+
+.current-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.order{
+    margin-left: 280px;
+}
+
+.remove-button{
+    font-size: 13px;
+    color: gray;
+    font-family: "Smythe", system-ui;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cart-break{
+    border: 1px solid black;
+}
+
+.total-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.checkout-button{
+    margin-top: 30px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 10px;
+    background-color: rgb(19, 204, 19);
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+.checkout-button:hover{
+    cursor: pointer;
+    background-color: #a39e9e;
+    transition: all 0.2s ease-in-out;
+}
+
+.payment{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  /* your box's size/style */
+  width: 30%;
+  height: 60%;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+.pay-button{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 10px;
+    background-color: rgb(19, 204, 19);
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+.pay-button:hover{
+    cursor: pointer;
+    background-color: #a39e9e;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-detail{
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.input-box{
+    border: 1px solid black;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+}
+
+
+.order-placed{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(138, 213, 213);
+    width: 46%;
+    padding: 15px;
+}
